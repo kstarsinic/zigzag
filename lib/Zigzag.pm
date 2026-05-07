@@ -88,8 +88,10 @@
 #
 # Older revisions are listed in the CHANGES file
 #
+# ABSTRACT: Implementation of a hyperthogonal data structure
 
 package Zigzag;
+
 use Exporter;
 @ISA = qw(Exporter);
 @EXPORT = qw
@@ -173,8 +175,6 @@ use File::Copy;
 # Use the $TRUE and $FALSE constants instead of "1" and "0"
 
 # Define constants
-use vars qw($VERSION);
-$VERSION = do { my @r = (q$Revision: 0.71 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r }; # must be all one line, for MakeMaker
 my $FALSE = 0;
 my $TRUE = !$FALSE;
 my $CURSOR_HOME = 10;           # NOTE!  This assumes it stays fixed!

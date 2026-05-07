@@ -89,7 +89,6 @@ use Zigzag;
 # Use the $TRUE and $FALSE constants instead of "1" and "0"
 
 # Define constants
-#my ($VERSION) = q$Revision: 0.70 $ =~ /([\d\.]+)/;
 my $VERSION = q$Id: zigzag,v 0.70 1999/05/14 13:45:51 xanni Exp $;
 my $FALSE = 0;
 my $TRUE = !$FALSE;
